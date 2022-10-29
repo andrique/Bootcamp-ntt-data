@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Introdução ao HTML na Prática</title>
+    </head>
+    <body>
+        <h1 id="inicio" style="color:blueviolet">Introdução ao HTML na Prática!</h1>
+        <hr />
+
+        <h2><i>Índice</i></h2>
+        <ul>
+            <li><a href="#html">O que é HTML</a></li>
+            <li><a href="#client">Client x Server</a></li>
+            <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+            <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+            <li><a href="#tag">TAGS</a></li>
+            <li><a href="#links">Links de Referências</a></li>     
+        
+        </ul>
+
+        <h2 id="html" style="color:darkmagenta"><strong>O que é HTML</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>HTML significa <i><strong>HyperText Markup Language</strong></i>, em português: <i>Linguagem de Marcação de Hipertexto</i>.</p> 
+        <p>É uma linguagem de <u>marcação</u>, não uma linguagem de <del>programação</del>, utilizada na construção de páginas na Web criada por <i>Tim Berners-Lee</i>.</p>
+        <p>A linguagem de marcação (ou em inglês <i>markup language</i>) são textos delimitados por nomes que o navegador consegue interpretar, sendo que cada nome destes delimitadores tem uma função e comportamento específico.</p> 
+        <p><blockquote>O HTML existe desde 1991 e atualmente está na versão 5, que veio recheada de recursos e funcionalidades que trazem melhorias para o desenvolvimento web, sua responsabilidade principal é demarcar a estrutura de uma página da web. Essa estrutura do HTML é formada por um conjunto de elementos, ou seja, os hipertextos, que se conectam entre si formando a página. Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</blockquote></p>
+        
+        <img width="150" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg"/>
+        <p><sub><mark>Tim Berners-Lee</mark></sub></p>
+
+        <h2 id="client" style="color:darkmagenta"><strong>Client x Server</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>No campo tecnológico, devido a sua amplitude, é importante trazer ao conhecimento alguns termos para melhor compreensão e contextualização do conteúdo à ser estudado.</p>
+        <p>Neste caso, é abordado sobre o significado de Client e Server para entender em que campo o HTML se encaixa.</p>
+        <p><u>Client:</u> Ou cliente no "linguajar" Web, refere-se ao "lado" que consome a informação de algum lugar/dispositivo.</p>
+        <p>Um exemplo de dipositivo é o notebook, o acesso a essas informações podem ser realizados através de navegadores, também chamados de Browsers.</p>
+        <br>
+        <p><u>Server:</u> Ou servidor, é o lado que retorna/fornece o serviço solicitado pelo cliente. Esta comunicação entre cliente e servidor acontece pelo computador e não necessariamente é necessária conexão com a internet.</p>
+        <p><i>Alguns tipos de servidores:</i> Proxy (realiza autenticação ou barra o acesso à sites indevidos), Firewall (mais voltado para verificação do acesso externo), E-mail, intranet (servidor web sem internet), DNS ou Domain Name Service.</p>
+        <p>O servidor pode estar em um computador ou uma rede mais complexa, como é o caso do Facebook que possui vários servidores devido a alta demanda, este local é chamado de <strong>Data Center</strong>.</p>
+        <p><sub>Modelo cliente-servidor</sub></p>  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Cliente-Servidor.png"/>  
+        <p><i>Hospedagem de sites</i> - Existem duas opções que podemos escolher ao disponibilizar arquivos e deixa-los acessíveis na internet: criar o próprio servidor ou contratar empresa especializada neste ramo, sendo a última opção a mais indicada.</p>
+        <p>Ao hospedar o nosso site é criado um domínio ou endereço pelo qual as pessoas conseguem achar o site na internet. Para registro de domínio brasileiro acesse <a href="https://registro.br/" target="blank" title="Clique aqui">aqui</a>.</p>
+        <p>As requisições realizadas pelo Client ocorrem em formato HTTP e o servidor retorna em HTML, CSS, Javascript, imagens, texto, dentre outros.</p>
+        <p><i>Arquivos estáticos</i> - Arquivos que são enviados ao navegador pelo servidor como HTML, CSS, JavaScript e imagens.</p>
+        <p><i>Cache</i>- ferramenta do navegador que possui a função de guardar na máquina do cliente arquivos já acessados para evitar que sejam trafegados novamente.</p>
+        <p><i>Design Responsivo ou Responsividade</i> - É uma técnica voltada para a interface de um site, tornando-a de fácil visualização e adaptável a diferentes tipos de navegadores e dispositivos.</p>
+        <p><i>Aplicações Web</i> - Soluções criadas que possuem a internet como meio de comunicação entre Client x Server nãos endo necessária a sua instalação, por exemplo, o site do Instagram (www.instagram.com). Aplicativos de celulares não se encaixam nesta classe.</p>
+    
+        <h2 id="ferramentas" style="color:darkmagenta"><strong>Ferramentas utilizadas</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>No curso de Introdução ao HTML realizado neste <a href="https://www.dio.me/bootcamp/ntt-data-diversidade-em-tech?ref=CG&utm_source=youtube&utm_medium=social&utm_campaign=cg-bootcamp-ntt-data-diversidade-tech&utm_content=description" target="blank">Bootcamp</a> foi usado como ferramenta o <strong>Visual Studio Code</strong>, a instalação pode ser realizada por este <a href="https://code.visualstudio.com/" title="Clique aqui" target="blank"> site.</a></p>
+        <p>A extensão instalada no programa foi o <strong>Live Server</strong> (plugin), abre o arquivo do <abbr title="Visual Studio Code">VSCODE</abbr> diretamente no navegador e atualiza as alterações automaticamente após salvas no programa. Outra extensão muito útil mas que já vem instalada no programa é o Emmet, ele autocompleta o código tornando a escrita mais dinâmica.</p>
+        <P>Além do <abbr title="Visual Studio Code">VSCODE</abbr> existem outros programas de edição de textos que podem ser utilizado para criação de arquivos HTML, o Sublime Text é uma dessas opções.</P>
+        <p>Geralmente já vem instalado nos computadores, porém, é necessário ter instalado um navegador de sua preferência para rodar os arquivos, neste curso o navegador utilizado é o <strong>Google Chrome</strong>. No prório navegador é utilizada a Ferramenta do desenvolvedor no navegador (no Google Chrome ela pode ser acessada clicando a tecla <strong>F12</strong>).</p>
+        <p>Os arquivos devem ter a extensão .html para ser exibido pelo navegador.    
+        <br>
+        <br>   
+        <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"/> <img width="150" src="https://i0.wp.com/pontodojazz.com.br/wp-content/uploads/2020/01/google-chrome-logo-w-text-by-maicon.jpg?fit=843%2C375&ssl=1"/>
+
+        <h2 id="estrutura" style="color:darkmagenta"><strong>Estrutura básica do HTML</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A estrutura básica do HTML possui três TAGS e é organizada conforme abaixo:</p>
+        <img src="https://colinhas.herokuapp.com/clara/correto.ong.gif"/>
+
+        <h2 id="tag" style="color:darkmagenta"><strong>TAGS</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A TAG é um elemento do HTML utilizada para informar ao navegador qual o tipo de estrutura esta sendo construída, pode ser título, parágrafo, imagem, link, etc.</p>
+        <p>Sua estrutura é formada iniciando com o sinal "menor <", posteriormente o nome e por último o sinal de "maior >". Para fechar a tag é incluído o sinal de barra após o <.</p>
+        <p>Dentre as tags, existem as de auto fechamento em que não é necessário seguir a orientação de fechar a tag, neste caso é utilizado o sinal de menor no inicio, a barra e sinal de maior ao final.</p>
+        <p>As tags possuem atributos/propriedades que tornam o arquivo mais dinâmicos e podem ser genéricos ou específicos.</p>
+        <img src="https://programadoresdepre.com.br/wp-content/webp-express/webp-images/uploads/2022/04/estrutura-de-um-elemento-html.jpg.webp"/>
+        <img src="https://guilhermemuller.com.br/imagens/cursos/html_basico/anatomia_tag.jpg"/>      
+        <p><strong>Listas Ordenadas e Não Ordenadas</strong></p>
+        <p>Listas <u>ordenadas</u> são enumeradas enquanto as listas <u>não ordenadas</u> são identificadas por marcadores, vou utilizar o exemplo do indice no inicio desta página, segue abaixo:</p>
+        <ol>
+            <li>O que é HTML</li>
+            <li>Client x Server</li>
+            <li>Ferramentas utilizadas</li>
+            <li>Estrutura básica do HTML</li>
+            <li>TAGS</li>
+            <li>Links de Referências</li>       
+        </ol>
+        <ul>
+            <li>O que é HTML</li>
+            <li>Client x Server</li>
+            <li>Ferramentas utilizadas</li>
+            <li>Estrutura básica do HTML</li>
+            <li>TAGS</li>
+            <li>Links de Referências</li>     
+        </ul>
+        <p>A tag das listas também possui uma estrutura a ser seguida, para listas ordenadas é utilizada a tag <strong>ol</strong> e a <strong>ul</strong> para não ordenadas, dentro da estrutura básica explicada anteriormente, seguida pela tag <strong>li</strong> a cada linha da lista.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlhh2QZvPwd0ZcqXmTzkEngxZwbhzdAwhi8sRjOS5YgPfsOj5Sg-C972K0qFAaS_aFDiY&usqp=CAU"/>
+
+        <h2 id="links" style="color:darkmagenta"><strong>Links de Referências</strong></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p><a href="https://web.dio.me/" target="blank">https://web.dio.me/</a></p>
+        <p><a href="https://pt.wikipedia.org/wiki/HTML" target="blank">https://pt.wikipedia.org/wiki/HTML</a></p>
+        <p><a href="https://pt.wikipedia.org/wiki/Linguagem_de_marca%C3%A7%C3%A3o" target="blank">https://pt.wikipedia.org/wiki/Linguagem_de_marca%C3%A7%C3%A3o</a></p>
+        <p><a href="https://www.w3schools.com/html/html_formatting.asp" target="blank">https://www.w3schools.com/html/html_formatting.asp</a></p>
+        <p><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica" target="blank">https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica</a></p>
+
+    </body>
+</html>
